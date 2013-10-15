@@ -1,0 +1,34 @@
+{
+  "id": "samplesite",
+  "development" : {
+    "vhost" : {
+      "server_name" : "samplesite.localhost",
+      "docroot" : "/srv/www/sample/samplesite.com/docs/current"
+    },
+    "database" : {
+      "db_name" : "samplesite_wp",
+      "db_user" : "samplesite",
+      "db_password" : "x!M54$c7Us0",
+      "db_host" : "localhost",
+      "db_charset" : "utf8",
+      "db_collate" : "utf8_unicode_ci",
+      "table_prefix" : "wp_"
+    },
+    "wp_params" : {
+      "path": "/srv/www/sample/samplesite.com/docs/",
+      "auth_key" : "RANDOM",
+      "secure_auth_key" : "RANDOM",
+      "logged_in_key" : "RANDOM",
+      "nonce_key" : "RANDOM",
+      "auth_salt" : "RANDOM",
+      "secure_auth_salt" : "RANDOM",
+      "logged_in_salt" : "RANDOM",
+      "nonce_salt" : "RANDOM",
+      "wp_lang" : "",
+      "display_errors" : "0",
+      "wp_debug_display" : "false",
+      "savequeries": "false",
+      "wp_debug": "false"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "groups": [
+    "sysadmin"
+  ],
+  "comment": "Test User Name",
+  "password": "$6$BcvQ4/W1iMlP9S33$k4RmfftqRi1I5T.z113L1VrXX0K78Uwii8Ot4WC1p74m2agZHYqfp9eNYG10B6adrQIEJ4jQyagJiMt7q9MiF.",
+  "ssh_keys": [
+    "ssh-rsa AAA456...uvw== testuser@testdomain.com"
+  ],
+  "id": "testuser",
+  "homesick_castles": [
+    {
+      "name": "dotfiles",
+      "source": "git://github.com/technicalpickles/dotpickles.git"
+    }
+  ],
+  "shell": "/bin/bash",
+  "email": "testuser@testdomain.com"
+}
