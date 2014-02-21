@@ -1,20 +1,25 @@
 {
   "id": "samplesite",
   "development" : {
+    "application" : {
+      "path" : "/srv/www/sample/samplesite.com/docs",
+      "repository": "https://github.com/WordPress/WordPress",
+      "packages": ["php5-gd", "php5-mysql", "php5-curl", "php-apc"]
+    },
     "vhost" : {
       "server_name" : "samplesite.localhost",
       "docroot" : "/srv/www/sample/samplesite.com/docs/current"
     },
     "database" : {
-      "db_name" : "samplesite_wp",
-      "db_user" : "samplesite",
-      "db_password" : "x!M54$c7Us0",
-      "db_host" : "localhost",
-      "db_charset" : "utf8",
-      "db_collate" : "utf8_unicode_ci",
+      "name" : "samplesite_wp",
+      "user" : "samplesite",
+      "password" : "x!M54$c7Us0",
+      "host" : "localhost",
+      "charset" : "utf8",
+      "collate" : "utf8_unicode_ci",
       "table_prefix" : "wp_"
     },
-    "wp_params" : {
+    "wordpress" : {
       "path": "/srv/www/sample/samplesite.com/docs/",
       "auth_key" : "RANDOM",
       "secure_auth_key" : "RANDOM",
