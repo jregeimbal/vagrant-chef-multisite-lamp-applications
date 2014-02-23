@@ -90,16 +90,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :chef_solo do |chef|
     chef.json = {
       "os_user" => "vagrant",
-      "web_projects" => "samplesite"
+      "applications_from_databags" => "samplesite"
         # "outdoor/grandcanyon,outdoor/national_park_trips,outdoor/rockymountain,outdoor/yellowstone,outdoor/yosemite,outdoor/zion,outdoor/climbing,outdoor/gear_and_go_tour,outdoor/snews,marine/passagemaker,marine/sailfeed,healthy_living/vegetarian_times,equine/equisearch,equine/equisearch-blogs,equine/myhorse,equine/horsejournal,equine/discover_horses,equine/equine-edu,healthy_living/thebox"
     }
 
-    chef.cookbooks_path = ["chef/cookbooks", "chef/site-cookbooks"]
+    chef.cookbooks_path = "chef/cookbooks"
     chef.roles_path = "chef/roles"
     chef.data_bags_path = "databags"
 
     chef.add_role("db_mysql")
-    chef.add_role("web/web_projects")
+    chef.add_role("web/applications")
     
 
     # chef.log_level = :debug 
