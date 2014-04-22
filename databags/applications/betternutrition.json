@@ -1,0 +1,40 @@
+{
+  "id": "betternutrition",
+  "development" : {
+    "application" : {
+      "path" : "/srv/www/betternutrition/betternutrition.com/docs",
+      "repository": "git@github.com:liquidti/betternutrition.git",
+      "packages": ["php5-mysql", "php5-mysql"],
+      "deploy_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEA3GeTsfsw527hS6ATBXyk6/7lIVkAtDoemuX2AO9nK/G5NlVu\nNq/MEXcdp6WKyn53R3q4+BB1wS54vCuxYD/h5C9NL927VEiRkE7iF9/UVP684mel\nN4SY5FXjML7Gq3ykE9ekzFy2svRPmhKNA00zaBHlWqJWCAWT+728BHVvnLL5Eh3C\nT84m3iCAzG5byirWW07AMgWXoEwypyNYrln7+RwaEcAqHYNtF36aQnaW0PGFBSZD\nt2f39gJDZr1Ad4+VUcf+xyPZfInQwvYLGsmsVvUvrGN2QCf5hQredQIEUQDXoBN9\n1UXKNWQxM0H9h+vzTjQ5lFAGdw67UW0iQTBOJQIDAQABAoIBAQDSQUDFHeJ2NPFZ\ninf62QAfXYbJfDVOuM7vZ4Z5N+iNJEhSS8cbBjM/SgmRHzu6llBFcQ45HsKmqiVl\nJK1OK0Lbwj/49KY67gtmxcmrisvs1SHtPYB/6M9Nq51Sp/uwJfQENcgxaBSlvKif\nSykYSDJNCh1oi8pUVrXoBgTxn/H8YX4A6z8foehUkb6jcf/NxKnRBF6Fh2hJm9he\nfHHM7yFRvnQ+LwcrrbFwxzZp0cBLe1Pk/Jf5m6JVl6VaefxtG4bwQin7J0KuzV6w\nzsn3zUJYAayTfl3QvdZzo205JpHzJcszvAO37OdpwWSfSjOnSJR3nHHe2Xv1+iwr\nmSOwBDqBAoGBAPW3YKO4FACYD81Vv14UZZZ1X26S0RuvsD2SBH+5c2kSfgamOuvs\ntdACWEZ8LPgq16RQCIDV/bfCfCMm1/VIcazkmtd83+xsrvbAwzlnMwT4Xu8oasvX\nHoVGXuf88ICCPmE6ZFB5zui0QdPv2QsJvMvLgjWJDOZM0NzVbEwj3bBhAoGBAOWh\nAgBVO3dT0bf/9Bnvpuzwk4uDkusK9Vqo5I2qMj1h5SYJRytJToc+TKD5DLGCIVUw\nkByOCgt0rxDIf9nCSmv70Aq3MWoP8M9LxWdz1hjqe/HmTZPMclxlHzoCd8ft3UtC\nybN+V0jLyExyjKuMngRKbw1jE640wadxkY1TVkRFAoGBAOCMQ3l6eHUOgaphSS/9\nrdSw0JRpAUWu6X1q2keqv2hvKNKEyOXffUtpSSioxCPKayTSquKqLGHpDq7FCagz\nGwcoJsT0bmJN9Bq1j/L+d2Z8X61pHyfHIDIlXAffZB3caItL5G6S0l5glKPM1Wk7\n7dfD0+t+olY4LssRExYF1MshAoGAHUgDvlEgDR5WHtV3phsGOS6QUfkMMgaqtM3W\nny31zBgApXIHbkChz+Mk2F4JvVTvtTJFHi8Knt1ZOZWnn/gDj3OD2unzVigEOBrc\naE3AHltARN9uQwuOBbQrYDVSWt89GczBda8FqFW8C+uLfpCm0btAH//jUZKOozB7\nM/9Nf9UCgYEAvhAXlfRSJfxsrt1mRuUKzODFp73Y+kmyov4ImiUOU1bkyxtg1zRh\nKVaHRAVL3yMwafZni9DdOid+/nDINhhQCQWXS391LQw42N8YHN8dZemcsDd+YCwY\n1z8LEUBQLr6/pBEZ1NCsML4Nkzzrutvv5tk7lVm8ZXr1oEGF6EVapr4=\n-----END RSA PRIVATE KEY-----"
+    },
+    "vhost" : {
+      "server_name" : "betternutrition.aimdev",
+      "docroot" : "/srv/www/betternutrition/betternutrition.com/docs/current"
+    },
+    "database" : {
+      "name" : "betternutrition",
+      "user" : "betternutrition",
+      "password" : "test-password",
+      "host" : "localhost",
+      "charset" : "utf8",
+      "collate" : "utf8_unicode_ci",
+      "table_prefix" : ""
+    }// ,
+    // "wordpress" : {
+    //   "path": "/srv/www/betternutrition/betternutrition.com/docs/current/webroot",
+    //   "auth_key" : "RANDOM",
+    //   "secure_auth_key" : "RANDOM",
+    //   "logged_in_key" : "RANDOM",
+    //   "nonce_key" : "RANDOM",
+    //   "auth_salt" : "RANDOM",
+    //   "secure_auth_salt" : "RANDOM",
+    //   "logged_in_salt" : "RANDOM",
+    //   "nonce_salt" : "RANDOM",
+    //   "wp_lang" : "",
+    //   "display_errors" : "0",
+    //   "wp_debug_display" : "false",
+    //   "savequeries": "false",
+    //   "wp_debug": "false"
+    // }
+  }
+}

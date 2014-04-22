@@ -1,0 +1,24 @@
+{
+  "id": "aimops",
+  "development" : {
+    "application" : {
+      "path" : "/srv/www/aimops/aimops.com/docs",
+      "repository": "git@github.com:liquidti/aimops.git",
+      "packages": ["php5-mysql"],
+      "deploy_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAoiYoUlZB4Uu3K6tjOjAE6xdEpUCpXj8jiVXo5gyVtaLKLSgq\n61Gmcvz21++lwS1BDFfpt9VJTFcDhyVYN+D8JVj9//vLrDtCztLdmxBrjBQzIoyA\nsJ0MmdI1wBFU/LRqZHAPg0Vvob7e5ShMXZiFohBCM7DBn8OaZTElVkmK7suRy1tN\n/J9Bz0VA95ebS1iEwX6iHR+FhXVvcJib9I0FjtHUhKcbvV8hGDcMuLyTvnSZYjBN\nsUUu7pcsh5qJfl/g0iWpj7ApL0FGIuyM7iVA5Y3YJx6esYaITdD7C+Nm183sRKkp\nIhA866fiII8Wvkl3Ia1c/i6CXS1L3h7rI1gwvQIDAQABAoIBAEDxF2UitvAM6yfK\nVMuRP+cIQq4M38incQwoJEc+8xb0RBUh6U6mPQwA1LxXdwOPpGXVL/44pkq07uzJ\nwDNhIJu0sMY9iq1IbtF3EtpwESLhVDmaHFCgFdPlpTFvv6IWgCYJ26yvuq4FTDBr\nm2pBFAR8joc1W9co+EVfEZ0lh0dsDW1sSrTU2An9bcCWkx+gBHH/j86PffEDfOsP\ndAweV5+c2KylR68Zr72nCr+qit//XgW3nqnH9xP+tW3ad6jdiiUrDvabJGTfPyj4\nMLIOe4Dlm2m+xKasz61FqF6IkghS2wCG9zXd070xaVj8H0wggrd7A61T01AJWttd\nE89iiOECgYEA1bA4nS8xiI8UUbg5+wwHDz/GrIB0z8PTxzfY4I7mMhKINIUf40/d\nfXvvDmrNx2t3epBGeq6biIOOsFhNEXMAM+itVf92zORUI/fnwOURQiE7sjKTEgY1\nYZB5/iB0OOT5OtbeEX46jEfx/xgDEAq6Rz6FxdBQ7RqKlVzTm0g1MRcCgYEAwkFt\n09Mg+kHGvrw91WZgykzbSYHVRImEfvXqu4Suq46AeUiAY9hPKxF8lAwHMfdJmqyP\n+YqEgHWWjgIMk44Dz4dXhAArXWKISS2tjIBO7YeHUbvMt0u43NRiFyxXiErzjvyj\nTVohR9KNo+NGlMhQ2zr0dBCIc5gHBltL8bbfCUsCgYBQFhWBw5g65/Tjk7oXPrC+\npFZffF1LKMeMWH/t2WCoz41Ascv7s4j9aJ91tc2ducczpjLj8+DSzwuBR/bKXWFs\nEv4zxuTNcZ2fRWAUSUWolS/8XzwDe1QyVqWB+sPUNuy5gqIDyF1FCgnGY0dykbKy\n1NnqA2LxGgtqYznjbrKQzQKBgQCaD1oTDPayg0gkLRa9EBzjVGD1w0pouMekCVTI\ns0n0NWgeyClLBlqDRbMPlxp9vilZylHFDt5XIursZSOkQpUzGZuGzLuXrHV51Ag3\nzerK5xmi8NZC6IMMYEQLLNee+BKB7Et3JWwPkiVTPQTVKqk1tWP6SMJvKrsnh3CL\nmwT4UQKBgChQYyUcyoTbr4chyyIBYS6QE5kjW5vVkuGVDgN2qts5CMw2LPi6Srv5\nMV2b/u3p+C9MzPRsU3adIsNjGlNkhDHKNe+uf97DQ4Fad/OwL2zatKw9tIK4LR9e\nix1NJVNJz5KzonMmitZRT4PikYmnXAsq5uNJelz7qbcuAi1vq7Ku\n-----END RSA PRIVATE KEY-----\n"
+    },
+    "vhost" : {
+      "server_name" : "aimops.aimdev",
+      "docroot" : "/srv/www/aimops/aimops.com/docs/current"
+    },
+    "database" : {
+      "name" : "aimops",
+      "user" : "aimops",
+      "password" : "test-password",
+      "host" : "localhost",
+      "charset" : "utf8",
+      "collate" : "utf8_unicode_ci",
+      "table_prefix" : ""
+    }
+  }
+}

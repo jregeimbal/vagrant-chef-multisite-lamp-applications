@@ -90,7 +90,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :chef_solo do |chef|
     chef.json = {
       "os_user" => "vagrant",
-      "applications_from_databags" => "samplesite"
+      # "applications_from_databags" => "samplesite"
+      
+      #Node Attribute
+      # "applications_from_databags" => "aimops"
+      "applications_from_databags" => "aimops,betternutrition"
+
         # "outdoor/grandcanyon,outdoor/national_park_trips,outdoor/rockymountain,outdoor/yellowstone,outdoor/yosemite,outdoor/zion,outdoor/climbing,outdoor/gear_and_go_tour,outdoor/snews,marine/passagemaker,marine/sailfeed,healthy_living/vegetarian_times,equine/equisearch,equine/equisearch-blogs,equine/myhorse,equine/horsejournal,equine/discover_horses,equine/equine-edu,healthy_living/thebox"
     }
 
@@ -102,7 +107,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_role("web/applications")
     
 
-    # chef.log_level = :debug 
+    chef.log_level = :debug 
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,
