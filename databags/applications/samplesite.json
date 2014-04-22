@@ -20,7 +20,6 @@
       "table_prefix" : "wp_"
     },
     "wordpress" : {
-      "path": "/srv/www/sample/samplesite.com/docs/",
       "auth_key" : "RANDOM",
       "secure_auth_key" : "RANDOM",
       "logged_in_key" : "RANDOM",

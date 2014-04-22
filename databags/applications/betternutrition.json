@@ -9,7 +9,7 @@
     },
     "vhost" : {
       "server_name" : "betternutrition.aimdev",
-      "docroot" : "/srv/www/betternutrition/betternutrition.com/docs/current"
+      "docroot" : "/srv/www/betternutrition/betternutrition.com/docs/current/webroot"
     },
     "database" : {
       "name" : "betternutrition",
@@ -18,23 +18,23 @@
       "host" : "localhost",
       "charset" : "utf8",
       "collate" : "utf8_unicode_ci",
-      "table_prefix" : ""
-    }// ,
-    // "wordpress" : {
-    //   "path": "/srv/www/betternutrition/betternutrition.com/docs/current/webroot",
-    //   "auth_key" : "RANDOM",
-    //   "secure_auth_key" : "RANDOM",
-    //   "logged_in_key" : "RANDOM",
-    //   "nonce_key" : "RANDOM",
-    //   "auth_salt" : "RANDOM",
-    //   "secure_auth_salt" : "RANDOM",
-    //   "logged_in_salt" : "RANDOM",
-    //   "nonce_salt" : "RANDOM",
-    //   "wp_lang" : "",
-    //   "display_errors" : "0",
-    //   "wp_debug_display" : "false",
-    //   "savequeries": "false",
-    //   "wp_debug": "false"
-    // }
+      "table_prefix" : "wp_"
+    },
+    "wordpress" : {
+      "path": "/webroot",
+      "auth_key" : "RANDOM",
+      "secure_auth_key" : "RANDOM",
+      "logged_in_key" : "RANDOM",
+      "nonce_key" : "RANDOM",
+      "auth_salt" : "RANDOM",
+      "secure_auth_salt" : "RANDOM",
+      "logged_in_salt" : "RANDOM",
+      "nonce_salt" : "RANDOM",
+      "wp_lang" : "",
+      "display_errors" : "0",
+      "wp_debug_display" : "false",
+      "savequeries": "false",
+      "wp_debug": "false"
+    }
   }
 }
